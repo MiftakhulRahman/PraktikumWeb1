@@ -1,4 +1,4 @@
-ce x-fastbody {
+body {
 	font: 16px/25px 'Assistant';
 	background-color: #eaeaea;
 }
@@ -295,6 +295,37 @@ main aside .advertisement {
 
 main aside .advertisement p{
 	font-size: 18px;
+}
+
+.isiberita {
+	margin: 0 0 20px 0;
+}
+
+.beritalain h1 {
+	text-align: left;
+	border-bottom: 2px solid #068c45;
+	color: #068c45;
+	padding: 5px;
+}
+
+.beritalain .isiberita {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.beritalain .isiberita h4 {
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0;
+
+}
+
+.beritalain .isiberita .ket {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 
